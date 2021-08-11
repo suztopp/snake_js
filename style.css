@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    /* display: flex;
+    flex-wrap: wrap; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    margin: 150px;
+}
+
+.headingscore {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: orange;
+}
